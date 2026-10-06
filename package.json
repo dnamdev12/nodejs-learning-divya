@@ -14,7 +14,10 @@
     "w1:api": "node week-1/part-2/05-06-tasks-api/server.js",
     "w1:api:test": "node --test week-1/part-2/05-06-tasks-api/tests/tasks.test.js",
     "w1:react": "npm --prefix week-1/part-2/07-react-client run dev",
-    "w1:react:install": "npm --prefix week-1/part-2/07-react-client install"
+    "w1:react:install": "npm --prefix week-1/part-2/07-react-client install",
+    "w2:seed": "mongosh --quiet ${MONGO_URI:-mongodb://127.0.0.1:27017} week-2/part-1/01-seed/seed.js",
+    "w2:queries": "mongosh --quiet ${MONGO_URI:-mongodb://127.0.0.1:27017} week-2/part-1/02-queries/queries.js",
+    "w2:index-lab": "mongosh --quiet ${MONGO_URI:-mongodb://127.0.0.1:27017} week-2/part-1/04-index-lab/index-lab.js"
   },
   "license": "MIT",
   "dependencies": {

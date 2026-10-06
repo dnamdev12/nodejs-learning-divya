@@ -1,0 +1,16 @@
+{
+  "name": "node-basics",
+  "version": "1.0.0",
+  "description": "Node.js training: weekly hands-on tasks",
+  "type": "module",
+  "engines": {
+    "node": ">=16"
+  },
+  "scripts": {
+    "w1:quiz": "node week-1/part-1/02-event-loop/quiz.cjs",
+    "w1:blocking": "node week-1/part-1/02-event-loop/blocking-server.js",
+    "w1:notes": "node week-1/part-1/03-cli-notes/notes.js",
+    "w1:server": "node week-1/part-1/04-http-server/server.js"
+  },
+  "license": "MIT"
+}

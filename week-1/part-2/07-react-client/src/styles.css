@@ -1,0 +1,103 @@
+:root {
+  font-family: system-ui, -apple-system, sans-serif;
+  color: #1f2937;
+  background: #f9fafb;
+}
+
+.container {
+  max-width: 560px;
+  margin: 48px auto;
+  padding: 0 16px;
+}
+
+h1 {
+  margin-bottom: 24px;
+}
+
+.add-form {
+  display: flex;
+  gap: 8px;
+  margin-bottom: 16px;
+}
+
+.add-form input {
+  flex: 1;
+  padding: 8px 12px;
+  border: 1px solid #d1d5db;
+  border-radius: 6px;
+  font-size: 1rem;
+}
+
+button {
+  padding: 8px 14px;
+  border: none;
+  border-radius: 6px;
+  background: #2563eb;
+  color: white;
+  font-size: 0.95rem;
+  cursor: pointer;
+}
+
+button:disabled {
+  opacity: 0.5;
+  cursor: not-allowed;
+}
+
+.filter {
+  display: block;
+  margin-bottom: 16px;
+  color: #4b5563;
+}
+
+.error {
+  padding: 10px 12px;
+  border-radius: 6px;
+  background: #fef2f2;
+  color: #b91c1c;
+}
+
+.muted {
+  color: #6b7280;
+}
+
+.tasks {
+  list-style: none;
+  padding: 0;
+}
+
+.tasks li {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  padding: 10px 12px;
+  margin-bottom: 8px;
+  border: 1px solid #e5e7eb;
+  border-radius: 6px;
+  background: white;
+}
+
+.tasks .title {
+  flex: 1;
+}
+
+.tasks .delete {
+  background: transparent;
+  color: #b91c1c;
+}
+
+.badge {
+  padding: 2px 8px;
+  border-radius: 999px;
+  font-size: 0.75rem;
+  background: #e5e7eb;
+}
+
+.badge.in-progress {
+  background: #fef3c7;
+  color: #92400e;
+}
+
+.badge.done {
+  background: #d1fae5;
+  color: #065f46;
+}

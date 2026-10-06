@@ -4,13 +4,21 @@
   "description": "Node.js training: weekly hands-on tasks",
   "type": "module",
   "engines": {
-    "node": ">=16"
+    "node": ">=18"
   },
   "scripts": {
     "w1:quiz": "node week-1/part-1/02-event-loop/quiz.cjs",
     "w1:blocking": "node week-1/part-1/02-event-loop/blocking-server.js",
     "w1:notes": "node week-1/part-1/03-cli-notes/notes.js",
-    "w1:server": "node week-1/part-1/04-http-server/server.js"
+    "w1:server": "node week-1/part-1/04-http-server/server.js",
+    "w1:api": "node week-1/part-2/05-06-tasks-api/server.js",
+    "w1:api:test": "node --test week-1/part-2/05-06-tasks-api/tests/tasks.test.js",
+    "w1:react": "npm --prefix week-1/part-2/07-react-client run dev",
+    "w1:react:install": "npm --prefix week-1/part-2/07-react-client install"
   },
-  "license": "MIT"
+  "license": "MIT",
+  "dependencies": {
+    "cors": "^2.8.6",
+    "express": "^5.2.1"
+  }
 }

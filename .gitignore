@@ -17,3 +17,6 @@ npm-debug.log*
 
 # runtime data
 week-1/part-1/03-cli-notes/notes.json
+
+# build output
+dist/
